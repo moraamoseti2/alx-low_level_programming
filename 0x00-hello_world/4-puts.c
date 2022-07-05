@@ -1,8 +1,7 @@
 #include <stdio.h>
-/**
- * This is a program that prints the following line
- *
- */
+/** 
+ * main- function that directs puts command
+ * */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
