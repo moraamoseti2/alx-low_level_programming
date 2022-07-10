@@ -22,9 +22,9 @@ int main(void)
 	}
 	if ( last == 0)
 	{
-		printf("0");
+		printf("and is 0");
 	}
-	if ( last < 6 && n != 0)
+	if ( last < 6 && != 0)
 	{
 		printf("and is less than 6 and not 0");
 	}
