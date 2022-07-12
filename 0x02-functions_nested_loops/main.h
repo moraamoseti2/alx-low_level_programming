@@ -1,1 +1,2 @@
-_putchar prototype
+int main(void);
+int putchar();
