@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include "main.h"
-
 /**
  * main - Entry point.
  * Description: write a program that prints "_putchar" followed by a new line.
@@ -8,15 +6,23 @@
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char ch;
+	char sample[] = "putchar";
+	int i = 0;
+	
+	for(ch=95;ch<=122;ch++){
+	    if(ch==95){
+	        putchar(ch);
+	    }
+	    
+	
 
+	while (sample[i] != '\0')
+	{
+		putchar(sample[i]);
+		i++;
+	}
+	}
+	putchar('\n');
 	return (0);
 }
