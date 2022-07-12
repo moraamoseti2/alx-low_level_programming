@@ -4,13 +4,13 @@
  * main to print alphabet in lowercase
  * return 0 success
 */
-int main(void)
+void print_alphabet(void)
 {
 	char ch;
 
 	for (ch = 97; ch <= 122; ch++)
 	{
-		print_alphabet(ch);
+		putchar(ch);
 	}
 	return (0);
 }
