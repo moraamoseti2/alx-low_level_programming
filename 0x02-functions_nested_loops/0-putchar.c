@@ -7,23 +7,25 @@
  */
 int main(void)
 {
+	int i = 0;
 	char ch;
 	char sample[] = "putchar";
-	int i = 0;
-	
-	for(ch=95;ch<=122;ch++){
-	    if(ch==95){
-	        putchar(ch);
-	    }
-	    
-	
 
-	while (sample[i] != '\0')
+	for(ch = 95; ch <= 122; ch++)
 	{
-		putchar(sample[i]);
-		i++;
-	}
+		if(ch == 95)
+		{
+			putchar(ch);
+		}
+
+		while (sample[i] !='\0')
+		{
+			putchar(sample[i]);
+			i++;
+		}
 	}
 	putchar('\n');
+
 	return (0);
 }
+
