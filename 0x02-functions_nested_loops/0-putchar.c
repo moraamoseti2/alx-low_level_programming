@@ -11,14 +11,14 @@ int main(void)
 	char ch;
 	char sample[] = "putchar";
 
-	for(ch = 95; ch <= 122; ch++)
+	for( ch = 95; ch <= 122; ch++)
 	{
-		if(ch == 95)
+		if( ch == 95)
 		{
 			putchar(ch);
 		}
 
-		while (sample[i] !='\0')
+		while (sample[i] != '\0')
 		{
 			putchar(sample[i]);
 			i++;
