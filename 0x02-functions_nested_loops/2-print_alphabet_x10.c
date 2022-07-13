@@ -4,7 +4,7 @@
  * description: print alphabet 10times
  * return : always 0
 */
-void print_alphabet_x10(void)
+int main(void)
 {
 	int n, c;
 
