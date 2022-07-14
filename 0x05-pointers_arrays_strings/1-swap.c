@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * void swap_int(int *a, int *b) to swap 2 integers
- * return 0:success
-*/
+ *swap_int - swap value of two ints.
+ *@a: pointer to one int.
+ *@b: pointer to second int.
+ *
+ *Return: void.
+ */
 void swap_int(int *a, int *b)
 {
 	int changed;
