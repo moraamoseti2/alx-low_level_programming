@@ -1,32 +1,21 @@
 #include "main.h"
-
 /**
- * print_number - Write a function that prints an integer with putchar
- * @n: This is my number to print
- *
+ * print_number - Function that prints an integer
+ * @n: int type number
+ * Description: Can only use _putchar to print.
  */
 void print_number(int n)
 {
-	unsigned int num2, num1 = n;
-	int div = 1;
+	unsigned int i = n;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		num1 = n * -1;
+		_putchar(45);
+		i = -i;
 	}
-	num2 = num1;
-	while (num2 > 9)
+	if (i / 10)
 	{
-		div *= 10;
-		num2 = num2 / 10;
+		print_number(i / 10);
 	}
-	while (div >= 1)
-	{
-		num2 = num1 % div;
-		num1 /= div;
-		_putchar(num1 + '0');
-		num1 = num2;
-		div /= 10;
-	}
+	_putchar(i % 10 + '0');
 }
