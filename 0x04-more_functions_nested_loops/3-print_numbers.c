@@ -3,7 +3,7 @@
 *print_numbers - function that print all numbers from
 *0 to 9
 *
-*Return: returns nothing
+*Return: 0 success
 */
 void print_numbers(void)
 {
