@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - write a program that prints its name, followed by new line
+ * main - Write a program that prints its name, followed by new line
  * if you rename the program it will print the new name without having to
  * compile it again
  * you should not remove the path before the name of the program
